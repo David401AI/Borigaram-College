@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/Roboto-Black.ttf");
+    src: url("../fonts/Roboto.ttf");
+}
+
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+.banner_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 160px;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner_taital_1 {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #fffdfd;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.banner_text {
+    width: 81%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+}
+
+.book_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.book_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 9px 0px;
+    margin-top: 40px;
+}
+
+.book_bt a:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    background-color: #f9f9fb;
+    top: 90px;
+}
+
+.footer_main {
+    width: 100%;
+    float: left;
+    position: initial;
+    top: 0px;
+    margin-top: 90px;
+    padding-top: 90px;
+}
+
+.contact_main {
+    width: 100%;
+    float: left;
+    display: initial !important;
+}
+
+.client_main {
+    padding-bottom: 0px;
+}
+.nig {
+    display: none;
+    transition: 0.2s;
+}
